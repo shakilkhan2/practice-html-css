@@ -1,0 +1,62 @@
+* {
+  text-align: left;
+  background-color: lightgoldenrodyellow;
+}
+h2 {
+  text-align: center;
+  color: crimson;
+  text-decoration: underline blue wavy;
+  background-color: blanchedalmond;
+  height: 320px;
+  background-image: url(/photos/styles/ocean.jpg), url(/photos/styles/oc1.jpg);
+  display: flex;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%, 110%;
+}
+.p {
+  background-color: lightsalmon;
+
+  font-size: 20px;
+  border-top: 9px solid gray;
+  border-radius: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.blogt {
+  color: darkgreen;
+  background-color: lightgray;
+  border-left: 5px solid lightsalmon;
+  border-radius: 5px;
+}
+#list {
+  color: blueviolet;
+  background-color: cornflowerblue;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  border-radius: 2px;
+  display: inline-block;
+}
+/* li {
+  color: black;
+  background-color: yellow;
+  border-radius: 20px;
+  border-left: 5px solid yellowgreen;
+  border-right: 5px solid yellowgreen;
+  border-top: 5px solid yellowgreen;
+  border-bottom: 5px solid yellowgreen;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 15px;
+  border-spacing: 5px;
+  margin-top: 5px;
+  display: flex;
+} */
+span {
+  background-color: yellow;
+  border-left: 5px solid red;
+  padding-left: 5px;
+  padding-right: 100px;
+  border-radius: 5px;
+}
